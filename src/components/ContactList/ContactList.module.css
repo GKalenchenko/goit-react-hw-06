@@ -1,0 +1,18 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.delete_button {
+  padding: 5px;
+}

@@ -1,0 +1,8 @@
+.contact_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.contact_wrapper p {
+  margin-left: 15px;
+}
